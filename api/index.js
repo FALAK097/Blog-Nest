@@ -1,4 +1,5 @@
 // nodemon is used bcz everytime we make changes in the code we dont have to restart the server manually nodemon will do it for us
+require('dotenv').config(); // Load environment variables from .env file inside the api folder
 const express = require('express');
 const cors = require('cors');
 const { mongoose } = require('mongoose');
@@ -20,9 +21,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
-mongoose.connect(
-  'mongodb+srv://falak:m0dric10@cluster0.qeiysf2.mongodb.net/?retryWrites=true&w=majority'
-);
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.post('/register', async (req, res) => {
   const { username, password } = req.body;
