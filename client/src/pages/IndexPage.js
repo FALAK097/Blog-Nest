@@ -5,7 +5,7 @@ export default function IndexPage() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('https://blog-nest-dguc.onrender.com/post')
+    fetch('http://localhost:4000/post')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
