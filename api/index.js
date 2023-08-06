@@ -12,6 +12,7 @@ const cookieParser = require('cookie-parser');
 const multer = require('multer');
 const uploadMiddleware = multer({ dest: 'uploads/' });
 const fs = require('fs');
+const path = require('path');
 
 const salt = bcrypt.genSaltSync(10);
 const secret = 'secret';
@@ -24,6 +25,13 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+});
+
+// static files
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
 app.post('/register', async (req, res) => {
