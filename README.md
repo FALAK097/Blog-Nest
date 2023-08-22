@@ -2,11 +2,7 @@
 
 Blog Nest is a MERN stack web application that allows authorized users to create and edit their posts. The application includes authentication using JWT, utilizes Quill.js for rich text editing, and is implemented as a Progressive Web App (PWA).
 
-![Blog Nest Screenshot](/path/to/screenshot.png)
-
-## Demo
-
-Check out the live demo of Blog Nest: [Demo Link](https://your-demo-link-here)
+![Blog Nest Screenshot](https://github.com/FALAK097/Blog-Nest/raw/main/Screenshot.PNG)
 
 ## Features
 
