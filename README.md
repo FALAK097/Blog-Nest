@@ -2,7 +2,23 @@
 
 Blog Nest is a MERN stack web application that allows authorized users to create and edit their posts. The application includes authentication using JWT, utilizes Quill.js for rich text editing, and is implemented as a Progressive Web App (PWA).
 
-![Blog Nest Screenshot](https://github.com/FALAK097/Blog-Nest/raw/main/Screenshot.PNG)
+1. **Landing Page**
+   ![Airbnb Screenshot](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/landing_page.png)
+
+2. **Register Page**
+   ![Register Page](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/register_page.png)
+
+3. **Login Page**
+   ![Login Page](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/login_page.png)
+
+4. **Landing Page with Username**
+   ![Landing Page with Username](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/landing_page_logged_in_user.png)
+
+5. **Detailed Blog Page**
+   ![Detailed Blog Page](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/detailed_blog_page.png)
+
+6. **Edit Blog Page**
+   ![Photo Gallery Page](https://github.com/FALAK097/Blog-Nest/raw/main/screenshots/edit_blog_page.png)
 
 ## Features
 
