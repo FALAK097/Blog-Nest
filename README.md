@@ -59,10 +59,6 @@ Blog Nest is a MERN stack web application that allows authorized users to create
 
 Contributions are welcome! If you encounter any bugs, have feature suggestions, or would like to contribute to the project, please feel free to submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Happy Blogging with Blog Nest!
