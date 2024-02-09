@@ -15,7 +15,7 @@ export default function Post({
     <div className="post">
       <div className="images">
         <Link to={`/post/${_id}`}>
-          <img src={`http://localhost:4000/` + cover} alt="" />
+          <img src={`https://blog-app-ztl7.onrender.com/` + cover} alt="" />
         </Link>
       </div>
       <div className="texts">
